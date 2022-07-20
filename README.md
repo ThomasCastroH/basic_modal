@@ -14,19 +14,23 @@ npm install npm-basic-modal
 
 #### Standalone component
 
-    ```
     import Modal from 'npm-basic-modal';
 
     const YourComponent = ({show, setShow}) => {
         return (
+
             {/* Modal display */}
             <Modal show={show} setShow={setShow} closeAnywhere={true} showIcon={true}>
+
                 {/* Modal content */}
                 <span> Modal customized text </span>
+
+                {/* If you want to use your own close component use the prop showIcon={false} and add your component like here */}
+                <button onClick={() => setShow(False)}>Close</button> 
+
             </Modal>
         )
     }
-    ```
 
 #### Display modal in your app
     
@@ -50,13 +54,13 @@ npm install npm-basic-modal
 
 
 ### Props
-`show`: boolean. Show or hide the modal.  
-`setShow`: function. Set the show state.  
-`closeAnywhere`: boolean. Close the modal when click outside.  
-`showIcon`: boolean. Show or hide the basic close icon.  
-`overlayClassname`: string. Customize the overlay classname.  
-`sectionClassname`: string. Customize the section classname.  
-`iconClassname`: string. Customize the icon classname.  
-`overlayStyle`: object. Customize the overlay with inline-style.  
-`sectionStyle`: object. Customize the section with inline-style.  
-`iconStyle`: object. Customize the icon with inline-style.  
+`show`: Boolean. Show or hide the modal.  
+`setShow`: Function. Set the show state.  
+`closeAnywhere`: Boolean. Close the modal when click outside.  
+`showIcon`: Boolean. Show or hide the basic close icon.  
+`overlayClassname`: String. Customize the overlay classname.  
+`sectionClassname`: String. Customize the section classname.  
+`iconClassname`: String. Customize the icon classname.  
+`overlayStyle`: Object. Customize the overlay with inline-style.  
+`sectionStyle`: Object. Customize the section with inline-style.  
+`iconStyle`: Object. Customize the icon with inline-style.  
