@@ -30,7 +30,6 @@ npm install npm-basic-modal
 
 #### Display modal in your app
     
-    ```
     import YourComponent from './YourComponent';
 
     const App = () => {
@@ -48,7 +47,7 @@ npm install npm-basic-modal
             </div>
         )
     }
-    ```
+
 
 ### Props
 `show`: boolean. Show or hide the modal.  
