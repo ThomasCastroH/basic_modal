@@ -51,13 +51,13 @@ npm install npm-basic-modal
     ```
 
 ### Props
-`show`: boolean. Show or hide the modal.
-`setShow`: function. Set the show state.
-`closeAnywhere`: boolean. Close the modal when click outside.
-`showIcon`: boolean. Show or hide the basic close icon.
-`overlayClassname`: string. Customize the overlay classname.
-`sectionClassname`: string. Customize the section classname.
-`iconClassname`: string. Customize the icon classname.
-`overlayStyle`: object. Customize the overlay with inline-style.
-`sectionStyle`: object. Customize the section with inline-style.
-`iconStyle`: object. Customize the icon with inline-style.
+`show`: boolean. Show or hide the modal.  
+`setShow`: function. Set the show state.  
+`closeAnywhere`: boolean. Close the modal when click outside.  
+`showIcon`: boolean. Show or hide the basic close icon.  
+`overlayClassname`: string. Customize the overlay classname.  
+`sectionClassname`: string. Customize the section classname.  
+`iconClassname`: string. Customize the icon classname.  
+`overlayStyle`: object. Customize the overlay with inline-style.  
+`sectionStyle`: object. Customize the section with inline-style.  
+`iconStyle`: object. Customize the icon with inline-style.  
